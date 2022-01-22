@@ -3,7 +3,7 @@ Vagrant.configure("2") do |config|
     config.vm.box = "fedora/32-cloud-base"
     config.vm.box_version = "32.20200422.0"
     
-    config.vm.network "private_network", type: "dhcp"
+    config.vm.network "public_network", ip: "192.168.1.111"
 
     config.ssh.forward_agent="true"
     config.ssh.forward_x11="true"
