@@ -2,7 +2,7 @@
 
 yum update -y
 
-yum install -y git nginx
+yum install -y git nginx telnet
 
 sudo systemctl start nginx
 

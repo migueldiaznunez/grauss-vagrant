@@ -27,3 +27,9 @@ Use Vagrant
 ```
 $ vagrant up
 ```
+
+### Dashboard
+
+```
+$ kubectl proxy --address='0.0.0.0' --port=8002 --accept-hosts='.*'
+```
